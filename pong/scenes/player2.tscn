@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkqe8kcvingsa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_52hfo"]
+size = Vector2(37, 183)
+
+[node name="player2" type="CharacterBody2D"]
+position = Vector2(1864, 392)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(28.5, 184.5)
+shape = SubResource("RectangleShape2D_52hfo")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2(24, 184)
+scale = Vector2(1, 0.998201)
+offset = Vector2(-24, -182.337)
+polygon = PackedVector2Array(11, 97, 27.849, 97, 47, 97, 47, 272, 11, 272)
